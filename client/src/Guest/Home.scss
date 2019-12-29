@@ -1,0 +1,153 @@
+.home {
+
+  div.logo {
+    margin: 24px auto;
+    max-width: 600px;
+
+    svg.logo {
+      width: 80%;
+      max-width: 450px;
+      margin-left: 24px;
+      fill: #cc9425;
+    }
+  }
+
+  .layout {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+
+    .title {
+      padding: 24px 0 48px;
+
+      h2 {
+        display: block;
+        margin: 0 24px;
+        color: #666;
+        font-size: 1.2rem;
+        font-weight: normal;
+      }
+
+      h1 {
+        margin: 0 24px 24px;
+        font-size: 2.4rem;
+        font-weight: normal;
+      }
+    }
+
+    p {
+      margin: 0 24px;
+      padding: 0;
+      font-size: 1rem;
+      line-height: 32px;
+    }
+
+    div.main {
+      font-weight: bold;
+      margin: 0 0 48px;
+    }
+
+    .link-button {
+      margin: 24px 24px 96px;
+
+      .button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 44px;
+        border-radius: .25rem;
+        background: rgba(234,85,80,.8);
+        color: #fefefe;
+        text-decoration: none;
+        text-align: center;
+        font-size: 1.1rem;
+        font-family: -apple-system, BlinkMacSystemFont, 'Hiragino Sans', 'Hiragino Kaku Gothic ProN', '游ゴシック Medium', meiryo, sans-serif;
+
+        &:hover {
+          background: rgba(234,85,80,1);
+        }
+      }
+    }
+
+    .link {
+      display: inline-block;
+      padding: 8px 12px;
+      border: .55px solid #666;
+      font-size: 16px;
+      color: #333;
+      background: rgba(0,0,0,0);
+      letter-spacing: 2px;
+      text-decoration: none;
+      transition: all ease-in-out .1s;
+
+      &:hover, &:focus, &:active {
+        background: rgba(0,0,0,.1);
+      }
+
+      & > div {
+        display: flex;
+        justify-content: space-between;
+        align-items: stretch;
+
+        .text {
+          margin: 0 36px;
+        }
+
+        .link-arrow {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+
+          i {
+            // margin-left: .2em;
+            color: #666;
+          }
+        }
+      }
+    }
+
+    .back-to-home {
+      display: block;
+      margin-top: 48px;
+      color: #666;
+
+      &:hover {
+        color: #333;
+      }
+    }
+  }
+
+  footer {
+    width: 100%;
+    margin: 48px 0 0;
+    background: #eee;
+
+    & > div {
+      max-width: 1200px;
+      padding: 96px 24px;
+      box-sizing: border-box;
+      margin: 0 auto;
+      font-size: 14px;
+      display: flex;
+      justify-content: space-between;
+      flex-direction: column;
+      align-items: flex-start;
+
+      .author {
+        svg {
+          display: block;
+          width: 100%;
+          max-width: 450px;
+          fill: #666;
+        }
+
+        small {
+          display: block;
+          margin-top: 8px;
+          font-size: 12px;
+          color: #666;
+        }
+      }
+    }
+  }
+}
