@@ -54,8 +54,8 @@ app.use('/home', express.static(client))
 app.use('/guest', express.static(client))
 app.use('/check', express.static(client))
 app.use('/close', express.static(client))
-app.use('/32ndconcert', express.static(client))
-app.use('/32ndconcert/survey', express.static(client))
+app.use('/33rdconcert', express.static(client))
+app.use('/33rdconcert/survey', express.static(client))
 
 // api設定
 app.post('/api/login', (req, res) => {
