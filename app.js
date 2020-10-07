@@ -115,9 +115,9 @@ app.post('/api/selection/phase', (req, res) => {
   auth(session, (authentication) => {
     if (!authentication) return res.status(403)
     // return res.json({status: true, phase: 'onlyadmin'})
-    return res.json({status: true, phase: 'getmusic'})
+    // return res.json({status: true, phase: 'getmusic'})
     // return res.json({status: true, phase: 'showlist'})
-    // return res.json({status: true, phase: 'hide'})
+    return res.json({status: true, phase: 'hide'})
   })
 })
 
