@@ -25,8 +25,8 @@ export default class App extends Component {
             <Route exact path='/guest' component={Input} />
             <Route exact path='/check' component={Check} />
             <Route exact path='/close' component={Close} />
-            <Route exact path='/32ndconcert' component={Login} />
-            <Route path='/32ndconcert/survey' component={Survey} />
+            <Route exact path='/33rdconcert' component={Login} />
+            <Route path='/33rdconcert/survey' component={Survey} />
           </Switch>
         </Scroll>
       </Router>

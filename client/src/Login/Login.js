@@ -23,7 +23,7 @@ export default class Login extends Component {
   }
 
   componentWillMount () {
-    window.localStorage.status === 'member' ? this.setState({redirect: '/32ndconcert/survey'}) : ''
+    window.localStorage.status === 'member' ? this.setState({redirect: '/33rdconcert/survey'}) : ''
   }
 
   login (e) {
@@ -47,7 +47,7 @@ export default class Login extends Component {
         if (response.status) {
           window.localStorage['status'] = 'member'
           window.scrollTo(0, 0)
-          this.setState({sending: true, redirect: '/32ndconcert/survey'})
+          this.setState({sending: true, redirect: '/33rdconcert/survey'})
           // 処理順によって表示できない
           Actions.toastShow('ログインしました')
           return

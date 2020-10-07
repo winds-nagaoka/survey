@@ -1,4 +1,4 @@
-export const title = '32ndconcert'
+export const title = '33rdconcert'
 export const c1 = {
   title: '練習について',
   q1: 'スタジオの練習について',
@@ -17,5 +17,5 @@ export const c3 = {
 export const c4 = {
   title: '今後の演奏会について',
   q1: '春のミニコンサートでやりたい曲があれば教えてください',
-  q2: '第33回定期演奏会でやりたい曲があれば教えてください'
+  q2: '第34回定期演奏会でやりたい曲があれば教えてください'
 }
