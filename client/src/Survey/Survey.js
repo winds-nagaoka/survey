@@ -282,7 +282,7 @@ export default class Login extends Component {
               </div>
 
             </div>
-            <div>
+            {/* <div>
 
               <h2 className={'title ' + this.state.fontSize}>{q.c4.title}</h2>
 
@@ -296,7 +296,7 @@ export default class Login extends Component {
 
               </div>
 
-            </div>
+            </div> */}
 
             <button onClick={(e) => this.sendMessage(e)} onTouchStart={() => {}} className='highlight' disabled={disable}>{buttonText}</button>
             <button onClick={(e) => this.changeInputMode(e)} onTouchStart={() => {}} disabled={disable}>もどる</button>
@@ -401,7 +401,7 @@ export default class Login extends Component {
               </div>
 
             </div>
-            <div>
+            {/* <div>
 
               <h2 className={'title ' + this.state.fontSize}>{q.c4.title}</h2>
 
@@ -415,7 +415,7 @@ export default class Login extends Component {
 
               </div>
 
-            </div>
+            </div> */}
 
             {checkButton}
 
