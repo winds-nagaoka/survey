@@ -17,7 +17,7 @@ const Question = ({
       return (
         <div className='answer'>
           <div className='text'>
-            {/* <label>{question.q7.sub1}</label> */}
+            <label>{question.q7.sub1}</label>
             <textarea
               className={fontSize}
               value={answer.a7.text1 ? answer.a7.text1 : ''}
@@ -25,7 +25,7 @@ const Question = ({
               placeholder='入力できます'
             ></textarea>
           </div>
-          {/* <div className='text'>
+          <div className='text'>
             <label>{question.q7.sub2}</label>
             <textarea
               className={fontSize}
@@ -33,24 +33,24 @@ const Question = ({
               onChange={(e) => textChange('text2', e)}
               placeholder='入力できます'
             ></textarea>
-          </div> */}
+          </div>
         </div>
       )
     } else {
       return (
         <div className='answer check'>
           <div className='text'>
-            {/* <label>{question.q7.sub1}</label> */}
+            <label>{question.q7.sub1}</label>
             {(() => {
               return answer.a7.text1 !== '' ? <p>{lib.editText(answer.a7.text1)}</p> : <p className='no'>回答なし</p>
             })()}
           </div>
-          {/* <div className='text'>
+          <div className='text'>
             <label>{question.q7.sub2}</label>
             {(() => {
               return answer.a7.text2 !== '' ? <p>{lib.editText(answer.a7.text2)}</p> : <p className='no'>回答なし</p>
             })()}
-          </div> */}
+          </div>
         </div>
       )
     }
