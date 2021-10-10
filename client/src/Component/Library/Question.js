@@ -1,4 +1,4 @@
-export const title = '33rdconcert'
+export const title = '34thconcert'
 export const c1 = {
   title: '練習について',
   q1: 'スタジオの練習について',

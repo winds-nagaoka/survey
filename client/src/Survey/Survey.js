@@ -38,7 +38,7 @@ export default class Login extends Component {
   }
 
   componentWillMount () {
-    window.localStorage.status === 'member' ? '' : this.setState({redirect: '/33rdconcert'})
+    window.localStorage.status === 'member' ? '' : this.setState({redirect: '/34thconcert'})
   }
 
   sendMessage (e) {
@@ -141,7 +141,7 @@ export default class Login extends Component {
                 window.localStorage.clear()
                 // Actions.toastShow('リセットしました')
                 onClose()
-                this.setState({redirect: '/33rdconcert'})
+                this.setState({redirect: '/34thconcert'})
               }}>ログアウト</button>
             </div>
           </div>
