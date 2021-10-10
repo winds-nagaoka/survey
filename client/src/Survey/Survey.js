@@ -38,7 +38,7 @@ export default class Login extends Component {
   }
 
   componentWillMount () {
-    window.localStorage.status === 'member' ? '' : this.setState({redirect: '/33rdconcert'})
+    window.localStorage.status === 'member' ? '' : this.setState({redirect: '/34thconcert'})
   }
 
   sendMessage (e) {
@@ -141,7 +141,7 @@ export default class Login extends Component {
                 window.localStorage.clear()
                 // Actions.toastShow('リセットしました')
                 onClose()
-                this.setState({redirect: '/33rdconcert'})
+                this.setState({redirect: '/34thconcert'})
               }}>ログアウト</button>
             </div>
           </div>
@@ -349,10 +349,10 @@ export default class Login extends Component {
         <div className='header-text'>
           <p className='headerfor'>会員各位</p>
           <p className='headerfrom'>事務局より</p>
-          <p>第33回定期演奏会、お疲れさまでした。</p>
+          <p>第34回定期演奏会、お疲れさまでした。</p>
           <p>反省会を開くにあたり、前もって意見を募集したく簡単ですがアンケートを作成いたしました。今回の定期演奏会に関して、反省・感想・意見・提案等なんでも(個人的なことでも)構いませんので記入をお願いいたします。</p>
           <p>アンケートは匿名です。各項目をすべて埋める必要はございません。また、気づいたことがあればその都度何度でも送信してください。</p>
-          <p>回答期限は10月31日(土)23:59までとさせていただきます。</p>
+          <p>回答期限は10月30日(土)12:00までとさせていただきます。</p>
         </div>
         <div className='form'>
           <form>
